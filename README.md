@@ -39,5 +39,51 @@ cd PyCSBtool
 pip install -r requirements.txt
 
 # Step 3: Run the application
-python pycsbtool.py
+python CT_V20.py
 
+-----
+
+🚀 How to Use PyCSBtool
+1. System Modeling
+Choose Frequency Domain Transfer Function to enter a transfer function (e.g., G = 1/(s^2+10s+20)).
+
+Or, select Time Domain State-Space Representation to input matrices A, B, C, and D manually.
+
+2. System Visualization Tools
+Use the Pole Zero and Root Locus buttons to display system characteristics in the frequency domain.
+
+Click Step, Impulse, or Transient to simulate corresponding system responses.
+
+Adjust Time Axis and graph theme for better readability.
+
+3. PID Controller Tuning
+Adjust the Kp, Ki, and Kd sliders or enter values manually.
+
+Observe how system response changes with different controller parameters.
+
+Use this for real-time understanding of control action and stability.
+
+4. Parameter Sweep
+Enter a range of gain values to analyze how the system reacts across multiple controller settings.
+
+Click Sweep to visualize sensitivity and performance trends.
+
+5. Connect COM Device (Optional)
+Select the correct COM Port and Baud Rate to connect to a microcontroller (e.g., Arduino).
+
+Click Connect to establish a serial link.
+
+Useful for integrating hardware in lab experiments.
+
+6. System Identification
+Use the SysID section to input experimental input-output data and estimate system models.
+
+View estimated transfer functions or state-space equivalents.
+
+7. Save/Load
+Use Save to store current configurations (model, PID gains, etc.).
+
+Use Load to retrieve a saved session and continue analysis.
+
+8. Exit
+Click Exit to close the application safely.
