@@ -1,10 +1,6 @@
 # PyCSBtool
 **PyCSBtool** is a Python-based graphical user interface (GUI) designed to support the teaching and learning of basic control system concepts. It provides interactive tools for system modeling, response simulation, PID control, and system identification, making it ideal for undergraduate-level control systems courses.
 
-# PyCSBtool — Control System Basic Tool
-
-**PyCSBtool** is a Python-based graphical user interface (GUI) designed to support the teaching and learning of basic control system concepts. It provides interactive tools for system modeling, response simulation, PID control, and system identification, making it ideal for undergraduate and diploma-level control systems courses.
-
 ---
 
 ## 🔧 Features
