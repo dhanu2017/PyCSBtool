@@ -30,7 +30,7 @@
 
 ### Setup Instructions
 
-```bash
+
 # Step 1: Clone the repository
 git clone https://github.com/yourusername/PyCSBtool.git
 cd PyCSBtool
@@ -41,8 +41,8 @@ pip install -r requirements.txt
 # Step 3: Run the application
 python CT_V20.py
 
------
 
+### How to Use PyCSBtool
 🚀 How to Use PyCSBtool
 1. System Modeling
 Choose Frequency Domain Transfer Function to enter a transfer function (e.g., G = 1/(s^2+10s+20)).
@@ -87,3 +87,4 @@ Use Load to retrieve a saved session and continue analysis.
 
 8. Exit
 Click Exit to close the application safely.
+
